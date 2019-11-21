@@ -1,0 +1,24 @@
+﻿<Window x:Class="Spiel_Automat.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Spiel_Automat"
+        mc:Ignorable="d"
+        Title="Spielautomat" Height="450" Width="488.761">
+    <Grid Margin="-64,-29,-23,-14">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="19*"/>
+            <RowDefinition Height="47*"/>
+        </Grid.RowDefinitions>
+        <Label x:Name="zahl1" Content="0" HorizontalAlignment="Left" Margin="256,128,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.441,1.393" Grid.RowSpan="2"/>
+        <Button Content="Spielen" HorizontalAlignment="Left" Margin="306,202.02,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click" Grid.Row="1"/>
+        <Label x:Name="zahl2" Content="0" HorizontalAlignment="Left" Margin="320,128,0,0" VerticalAlignment="Top" Grid.RowSpan="2"/>
+        <Label x:Name="zahl3" Content="0" HorizontalAlignment="Left" Margin="369,127,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.531,0.618" Width="22" Grid.RowSpan="2"/>
+        <Label Content="Guthaben" HorizontalAlignment="Left" Margin="225,70.02,0,0" VerticalAlignment="Top" RenderTransformOrigin="1.475,0.05" Grid.Row="1"/>
+        <Label x:Name="ll" Content="Einsatz" HorizontalAlignment="Left" Margin="336,69.02,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.116,0.008" Grid.Row="1"/>
+        <Label x:Name="Guthaben_1" Content="5" HorizontalAlignment="Left" Margin="250,120.02,0,0" VerticalAlignment="Top" Grid.Row="1"/>
+        <TextBox x:Name="txt_Einsatz" HorizontalAlignment="Left" Height="23" Margin="328,127.02,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Grid.Row="1"/>
+
+    </Grid>
+</Window>
